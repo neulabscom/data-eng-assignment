@@ -1,0 +1,32 @@
+colums_to_cast:
+  double:
+    - Amount
+  timestamp:
+    - LastUpdateDate
+    - LatestShipDate
+    - PurchaseDate
+    - ShipDate
+
+ordered_columns:
+  - OrderId
+  - OrderStatus
+  - OrderType
+  - IsBusinessOrder
+  - IsReplacementOrder
+  - PurchaseDate
+  - Year
+  - YearMonth
+  - YearQuarter
+  - YearWeek
+  - weekday
+  - LastUpdateDate
+  - LatestShipDate
+  - NumberOfItemsShipped
+  - NumberOfItemsUnshipped
+  - ShipDate
+  - Amount
+  - PostalCode
+  - CountryCode
+  - City
+  - Province
+  - Region
